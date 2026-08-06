@@ -1,0 +1,13 @@
+interface:
+  display_name: "JT New"
+  short_description: "Research and create new Jira tickets"
+  default_prompt: "Use $jt-new to research this change and prepare a new Jira ticket or linked issue graph."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "atlassian"
+      description: "Connected Atlassian MCP for Jira discovery, creation, and issue linking"
+
+policy:
+  allow_implicit_invocation: true

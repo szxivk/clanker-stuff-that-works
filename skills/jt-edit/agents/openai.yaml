@@ -1,0 +1,13 @@
+interface:
+  display_name: "JT Edit"
+  short_description: "Interview and improve existing Jira issues"
+  default_prompt: "Use $jt-edit to review and improve this existing Jira issue."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "atlassian"
+      description: "Connected Atlassian MCP for Jira issue reading and updates"
+
+policy:
+  allow_implicit_invocation: true
