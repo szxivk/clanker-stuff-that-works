@@ -1,6 +1,6 @@
 # Pi setup
 
-This directory contains Pi-related configuration and extensions for this collection.
+This directory contains Pi-related configuration and extensions for this collection. The setup takes inspiration from EeroAlvar's video, [My Pi Setup After 6 Months](https://www.youtube.com/@EeroAlvar).
 
 ## Local extensions
 
